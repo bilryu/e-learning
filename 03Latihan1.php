@@ -1,16 +1,22 @@
-<?
+<?php
+$purplebox='';
+$redbox='';
+$yellowbox='';
+$bluebox='';
+$greenbox='';
+$colorlessbox='';
 $ball = 'purple';
 //Coba ubah ke "yellow", "blue", "green", "purple", atau warna lain
 if ($ball == 'red') {
 $redbox = $ball;
-} elseif ($ball == 'yellow') {
+} else if ($ball == 'yellow') {
 $yellowbox = $ball;
-} elseif ($ball == 'blue') {
+} else if ($ball == 'blue') {
 $bluebox = $ball;
-} elseif ($ball == 'green') {
+} else if ($ball == 'green') {
 $greenbox = $ball;
-} elseif ($ball == 'purple') {
-$purplebox = $ball;
+} else if ($ball == 'purple') {
+$purplebox = $ball;
 } else {
 $colorlessbox = $ball;
 }
